@@ -22,6 +22,10 @@ public class Pet {
 	happiness += 10;
     }
 
+    public void setName(String name) {
+    	this.name = name;
+    }
+
 	/**
 	Getter for the name of the pet
 	@return the name of the pet
