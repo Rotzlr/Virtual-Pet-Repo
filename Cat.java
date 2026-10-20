@@ -24,4 +24,8 @@ public class Cat extends Pet {
 	public void purr() {
 		System.out.println(getName() + " purrs happily!");
 	}
+
+	public void bark() {
+        System.out.println(getName() + " says: Woof!");
+    }
 }
