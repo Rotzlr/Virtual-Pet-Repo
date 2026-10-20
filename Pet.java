@@ -17,6 +17,11 @@ public class Pet {
         happiness = 50;
     }
 
+    public void petWalk(Pet p) {
+	System.out.println(getName() + "went on a walk");
+	happiness += 10;
+    }
+
 	/**
 	Getter for the name of the pet
 	@return the name of the pet
